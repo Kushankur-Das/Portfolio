@@ -12,10 +12,15 @@
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Kushankur Das Portfolio</title>
 </head>
 <body>
+<div class="loader">
+    <div></div>
+</div>
+<div class="content">
 <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -733,7 +738,13 @@
     <a href="#home" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scroll__icon"></i>
     </a>
-
+    </div>
+    <script>
+        $(window).on('load', function() {
+            $('.loader').fadeOut(1000);
+            $('.content').fadeIn(1000);
+        });
+    </script>
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
