@@ -506,20 +506,12 @@ img{
     background-color: var(--first-color);
 }
 
-.skills__laravel{
-    width: 80%;
-}
-
-.skills__django{
+.skills__nodejs{
     width: 60%;
 }
 
 .skills__php{
-    width: 80%;
-}
-
-.skills__typescript{
-    width: 70%;
+    width: 20%;
 }
 
 .skills__react{
@@ -534,16 +526,8 @@ img{
     width: 80%;
 }
 
-.skills__formik{
-    width: 60%;
-}
-
 .skills__mysql{
     width: 80%;
-}
-
-.skills__graphql{
-    width: 70%;
 }
 
 .skills__close .skills__list{
