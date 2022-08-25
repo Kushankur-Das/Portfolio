@@ -406,6 +406,7 @@ img{
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+    pointer-events: none;
 }
 
 .about__description{
