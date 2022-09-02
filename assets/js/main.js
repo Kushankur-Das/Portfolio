@@ -129,6 +129,7 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive);
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
