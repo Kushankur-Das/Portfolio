@@ -518,6 +518,10 @@ img {
   width: 20%;
 }
 
+.skills__wordpress {
+  width: 80%;
+}
+
 .skills__react {
   width: 70%;
 }
